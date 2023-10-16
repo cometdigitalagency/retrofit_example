@@ -32,7 +32,7 @@
 
 - ### json_serializable
 
-  Automatically generate code for converting to and from JSON by annotating Dart classes [more info] (https://pub.dev/packages/json_serializable)
+  Automatically generate code for converting to and from JSON by annotating Dart classes [more info](https://pub.dev/packages/json_serializable)
 
 - ### build_runner
-  A build system for Dart code generation and modular compilation [more info] (https://pub.dev/packages/build_runner)
+  A build system for Dart code generation and modular compilation [more info](https://pub.dev/packages/build_runner)
