@@ -1,16 +1,38 @@
 # retrofit_example
 
-A new Flutter project.
+ັ້This is an example for retrofit implementation in Flutter
 
-## Getting Started
+## Installation
 
-This project is a starting point for a Flutter application.
+- ### Install packages
 
-A few resources to get you started if this is your first Flutter project:
+  ```bash
+      flutter pub get
+  ```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- ### Generate comman
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+  1. Generate dependencies file, model, third party.
+
+  ```bash
+      flutter pub run build_runner build
+  ```
+
+  if there are some conflict files you can solve by this command:
+
+  ```bash
+      flutter pub run build_runner build --delete-conflicting-outputs
+  ```
+
+## Packages for retrofit implementation in this project
+
+- ### retrofit
+
+  How to handle the api call? So Let's go to retrofit then you will see [more info](https://pub.dev/packages/retrofit).
+
+- ### json_serializable
+
+  Automatically generate code for converting to and from JSON by annotating Dart classes [more info] (https://pub.dev/packages/json_serializable)
+
+- ### build_runner
+  A build system for Dart code generation and modular compilation [more info] (https://pub.dev/packages/build_runner)
