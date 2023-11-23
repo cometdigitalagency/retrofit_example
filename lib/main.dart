@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:retrofit_example/services/service_locator.dart';
+import 'package:retrofit_example/DI/service_locator.dart';
 import 'package:retrofit_example/todo_page.dart';
 
 void main() {

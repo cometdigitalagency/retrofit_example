@@ -1,6 +1,6 @@
 # retrofit_example
 
-ັ້This is an example for retrofit implementation in Flutter
+This is an example for retrofit implementation in Flutter
 
 ## Installation
 
@@ -10,18 +10,18 @@
       flutter pub get
   ```
 
-- ### Generate comman
+- ### Generate command
 
   1. Generate dependencies file, model, third party.
 
   ```bash
-      flutter pub run build_runner build
+      dart run build_runner build
   ```
 
   if there are some conflict files you can solve by this command:
 
   ```bash
-      flutter pub run build_runner build --delete-conflicting-outputs
+      dart run build_runner build --delete-conflicting-outputs
   ```
 
 ## Packages for retrofit implementation in this project

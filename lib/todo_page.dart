@@ -1,6 +1,6 @@
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
-import 'package:retrofit_example/services/service_locator.dart';
+import 'package:retrofit_example/DI/service_locator.dart';
 
 import 'models/todo.dart';
 import 'network/rest_client.dart';
